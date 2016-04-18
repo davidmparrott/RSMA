@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F4F258D1A32627D0077D292 /* EventDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4F258C1A32627D0077D292 /* EventDetailViewController.m */; };
+		942FB64E1AE0742800D51EF9 /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 942FB64D1AE0742800D51EF9 /* Images-2.xcassets */; };
+		946858791A9BC5C3006C078E /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 946858781A9BC5C3006C078E /* CloudKit.framework */; };
+		94B77E921A364B0B004888D5 /* openjsv7_screenshot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94B77E911A364B0B004888D5 /* openjsv7_screenshot.jpg */; };
+		94D8354E1A0D582100A8A073 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D8354D1A0D582100A8A073 /* main.m */; };
+		94D835511A0D582100A8A073 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D835501A0D582100A8A073 /* AppDelegate.m */; };
+		94D835571A0D582100A8A073 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94D835551A0D582100A8A073 /* Main.storyboard */; };
+		94D8355C1A0D582100A8A073 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94D8355A1A0D582100A8A073 /* LaunchScreen.xib */; };
+		94D835681A0D582100A8A073 /* RSMA_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D835671A0D582100A8A073 /* RSMA_AppTests.m */; };
+		94D835731A0D78AB00A8A073 /* EventListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D835721A0D78AB00A8A073 /* EventListViewController.m */; };
+		B40B7D4A1A99214600A21163 /* preflist.plist in Resources */ = {isa = PBXBuildFile; fileRef = B40B7D491A99214600A21163 /* preflist.plist */; };
+		B40B7D4C1A99220E00A21163 /* Token.plist in Resources */ = {isa = PBXBuildFile; fileRef = B40B7D4B1A99220E00A21163 /* Token.plist */; };
+		B41CA7951A992E4800D47852 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B41CA7941A992E4800D47852 /* Security.framework */; };
+		D1D6A69E796469C37CBAF907 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62CB08316B772F7781F8A17A /* libPods.a */; };
+		E62403521A88425A00065A73 /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E62403511A88425A00065A73 /* MainMenuViewController.m */; };
+		E65F44991A9EDCFD00DF48C1 /* rideshareO.png in Resources */ = {isa = PBXBuildFile; fileRef = E65F44981A9EDCFD00DF48C1 /* rideshareO.png */; };
+		E7C9131A1A8A9058004C35CA /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C913191A8A9058004C35CA /* RootViewController.m */; };
+		E7D395D31A86CC4C0081C5D6 /* RosterListViewContoller.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D395D11A86CC4C0081C5D6 /* RosterListViewContoller.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94D835621A0D582100A8A073 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94D835401A0D582100A8A073 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94D835471A0D582100A8A073;
+			remoteInfo = "RSMA-App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0665CEF7150DB6A6600B8451 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		539D259A516A63FF27C44ACD /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		62CB08316B772F7781F8A17A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F4F258C1A32627D0077D292 /* EventDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = EventDetailViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		7F4F258E1A3262A20077D292 /* EventDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = EventDetailViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		942FB64D1AE0742800D51EF9 /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
+		9468586B1A9BBDE2006C078E /* RSMA-App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "RSMA-App.entitlements"; sourceTree = "<group>"; };
+		946858781A9BC5C3006C078E /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		94B77E911A364B0B004888D5 /* openjsv7_screenshot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = openjsv7_screenshot.jpg; sourceTree = "<group>"; };
+		94D835481A0D582100A8A073 /* RSMA-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RSMA-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94D8354C1A0D582100A8A073 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94D8354D1A0D582100A8A073 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		94D8354F1A0D582100A8A073 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		94D835501A0D582100A8A073 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		94D835561A0D582100A8A073 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94D8355B1A0D582100A8A073 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		94D835611A0D582100A8A073 /* RSMA-AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RSMA-AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94D835661A0D582100A8A073 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94D835671A0D582100A8A073 /* RSMA_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSMA_AppTests.m; sourceTree = "<group>"; };
+		94D835711A0D78AB00A8A073 /* EventListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = EventListViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		94D835721A0D78AB00A8A073 /* EventListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = EventListViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		B40B7D491A99214600A21163 /* preflist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = preflist.plist; sourceTree = "<group>"; };
+		B40B7D4B1A99220E00A21163 /* Token.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Token.plist; sourceTree = "<group>"; };
+		B41CA7941A992E4800D47852 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		E62403501A88425A00065A73 /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
+		E62403511A88425A00065A73 /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
+		E65F44981A9EDCFD00DF48C1 /* rideshareO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rideshareO.png; sourceTree = "<group>"; };
+		E7C913181A8A9058004C35CA /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		E7C913191A8A9058004C35CA /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		E7D395D11A86CC4C0081C5D6 /* RosterListViewContoller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RosterListViewContoller.m; sourceTree = "<group>"; };
+		E7D395D21A86CC4C0081C5D6 /* RosterListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RosterListViewController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94D835451A0D582100A8A073 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B41CA7951A992E4800D47852 /* Security.framework in Frameworks */,
+				D1D6A69E796469C37CBAF907 /* libPods.a in Frameworks */,
+				946858791A9BC5C3006C078E /* CloudKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94D8355E1A0D582100A8A073 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CC26734D2FB4DF5C4F49AC7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				539D259A516A63FF27C44ACD /* Pods.debug.xcconfig */,
+				0665CEF7150DB6A6600B8451 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		94D8353F1A0D582100A8A073 = {
+			isa = PBXGroup;
+			children = (
+				94D8354A1A0D582100A8A073 /* RSMA-App */,
+				94D835641A0D582100A8A073 /* RSMA-AppTests */,
+				94D835491A0D582100A8A073 /* Products */,
+				3CC26734D2FB4DF5C4F49AC7 /* Pods */,
+				C904FACDCEF4ADDA4C577D57 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		94D835491A0D582100A8A073 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94D835481A0D582100A8A073 /* RSMA-App.app */,
+				94D835611A0D582100A8A073 /* RSMA-AppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94D8354A1A0D582100A8A073 /* RSMA-App */ = {
+			isa = PBXGroup;
+			children = (
+				9468586B1A9BBDE2006C078E /* RSMA-App.entitlements */,
+				94D8354F1A0D582100A8A073 /* AppDelegate.h */,
+				94D835501A0D582100A8A073 /* AppDelegate.m */,
+				94D835711A0D78AB00A8A073 /* EventListViewController.h */,
+				94D835721A0D78AB00A8A073 /* EventListViewController.m */,
+				7F4F258C1A32627D0077D292 /* EventDetailViewController.m */,
+				7F4F258E1A3262A20077D292 /* EventDetailViewController.h */,
+				94D835551A0D582100A8A073 /* Main.storyboard */,
+				E7D395D21A86CC4C0081C5D6 /* RosterListViewController.h */,
+				E7D395D11A86CC4C0081C5D6 /* RosterListViewContoller.m */,
+				E62403511A88425A00065A73 /* MainMenuViewController.m */,
+				E62403501A88425A00065A73 /* MainMenuViewController.h */,
+				E7C913181A8A9058004C35CA /* RootViewController.h */,
+				E7C913191A8A9058004C35CA /* RootViewController.m */,
+				94D8355A1A0D582100A8A073 /* LaunchScreen.xib */,
+				E65F44981A9EDCFD00DF48C1 /* rideshareO.png */,
+				942FB64D1AE0742800D51EF9 /* Images-2.xcassets */,
+				94D8354B1A0D582100A8A073 /* Supporting Files */,
+			);
+			path = "RSMA-App";
+			sourceTree = "<group>";
+		};
+		94D8354B1A0D582100A8A073 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94B77E911A364B0B004888D5 /* openjsv7_screenshot.jpg */,
+				94D8354C1A0D582100A8A073 /* Info.plist */,
+				94D8354D1A0D582100A8A073 /* main.m */,
+				B40B7D491A99214600A21163 /* preflist.plist */,
+				B40B7D4B1A99220E00A21163 /* Token.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94D835641A0D582100A8A073 /* RSMA-AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				94D835671A0D582100A8A073 /* RSMA_AppTests.m */,
+				94D835651A0D582100A8A073 /* Supporting Files */,
+			);
+			path = "RSMA-AppTests";
+			sourceTree = "<group>";
+		};
+		94D835651A0D582100A8A073 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94D835661A0D582100A8A073 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C904FACDCEF4ADDA4C577D57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				946858781A9BC5C3006C078E /* CloudKit.framework */,
+				62CB08316B772F7781F8A17A /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94D835471A0D582100A8A073 /* RSMA-App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94D8356B1A0D582100A8A073 /* Build configuration list for PBXNativeTarget "RSMA-App" */;
+			buildPhases = (
+				3AD565AA33E1BA05763EDBD8 /* Check Pods Manifest.lock */,
+				94D835441A0D582100A8A073 /* Sources */,
+				94D835451A0D582100A8A073 /* Frameworks */,
+				94D835461A0D582100A8A073 /* Resources */,
+				7DAA86EF27BF505EF3C25500 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RSMA-App";
+			productName = "RSMA-App";
+			productReference = 94D835481A0D582100A8A073 /* RSMA-App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94D835601A0D582100A8A073 /* RSMA-AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94D8356E1A0D582100A8A073 /* Build configuration list for PBXNativeTarget "RSMA-AppTests" */;
+			buildPhases = (
+				94D8355D1A0D582100A8A073 /* Sources */,
+				94D8355E1A0D582100A8A073 /* Frameworks */,
+				94D8355F1A0D582100A8A073 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94D835631A0D582100A8A073 /* PBXTargetDependency */,
+			);
+			name = "RSMA-AppTests";
+			productName = "RSMA-AppTests";
+			productReference = 94D835611A0D582100A8A073 /* RSMA-AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94D835401A0D582100A8A073 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Slyter, Ryan Douglas";
+				TargetAttributes = {
+					94D835471A0D582100A8A073 = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 266548894Y;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+					94D835601A0D582100A8A073 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 94D835471A0D582100A8A073;
+					};
+				};
+			};
+			buildConfigurationList = 94D835431A0D582100A8A073 /* Build configuration list for PBXProject "RSMA-App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94D8353F1A0D582100A8A073;
+			productRefGroup = 94D835491A0D582100A8A073 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94D835471A0D582100A8A073 /* RSMA-App */,
+				94D835601A0D582100A8A073 /* RSMA-AppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94D835461A0D582100A8A073 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94D835571A0D582100A8A073 /* Main.storyboard in Resources */,
+				E65F44991A9EDCFD00DF48C1 /* rideshareO.png in Resources */,
+				942FB64E1AE0742800D51EF9 /* Images-2.xcassets in Resources */,
+				B40B7D4C1A99220E00A21163 /* Token.plist in Resources */,
+				B40B7D4A1A99214600A21163 /* preflist.plist in Resources */,
+				94D8355C1A0D582100A8A073 /* LaunchScreen.xib in Resources */,
+				94B77E921A364B0B004888D5 /* openjsv7_screenshot.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94D8355F1A0D582100A8A073 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3AD565AA33E1BA05763EDBD8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7DAA86EF27BF505EF3C25500 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94D835441A0D582100A8A073 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94D835511A0D582100A8A073 /* AppDelegate.m in Sources */,
+				E62403521A88425A00065A73 /* MainMenuViewController.m in Sources */,
+				94D8354E1A0D582100A8A073 /* main.m in Sources */,
+				94D835731A0D78AB00A8A073 /* EventListViewController.m in Sources */,
+				E7C9131A1A8A9058004C35CA /* RootViewController.m in Sources */,
+				7F4F258D1A32627D0077D292 /* EventDetailViewController.m in Sources */,
+				E7D395D31A86CC4C0081C5D6 /* RosterListViewContoller.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94D8355D1A0D582100A8A073 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94D835681A0D582100A8A073 /* RSMA_AppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94D835631A0D582100A8A073 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94D835471A0D582100A8A073 /* RSMA-App */;
+			targetProxy = 94D835621A0D582100A8A073 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		94D835551A0D582100A8A073 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94D835561A0D582100A8A073 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94D8355A1A0D582100A8A073 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94D8355B1A0D582100A8A073 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94D835691A0D582100A8A073 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		94D8356A1A0D582100A8A073 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94D8356C1A0D582100A8A073 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 539D259A516A63FF27C44ACD /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = "RSMA-App/RSMA-App.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "RSMA-App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94D8356D1A0D582100A8A073 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0665CEF7150DB6A6600B8451 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = "RSMA-App/RSMA-App.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "RSMA-App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		94D8356F1A0D582100A8A073 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RSMA-AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSMA-App.app/RSMA-App";
+			};
+			name = Debug;
+		};
+		94D835701A0D582100A8A073 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RSMA-AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSMA-App.app/RSMA-App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94D835431A0D582100A8A073 /* Build configuration list for PBXProject "RSMA-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94D835691A0D582100A8A073 /* Debug */,
+				94D8356A1A0D582100A8A073 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94D8356B1A0D582100A8A073 /* Build configuration list for PBXNativeTarget "RSMA-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94D8356C1A0D582100A8A073 /* Debug */,
+				94D8356D1A0D582100A8A073 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94D8356E1A0D582100A8A073 /* Build configuration list for PBXNativeTarget "RSMA-AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94D8356F1A0D582100A8A073 /* Debug */,
+				94D835701A0D582100A8A073 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94D835401A0D582100A8A073 /* Project object */;
+}
